@@ -22,7 +22,7 @@ pip install numpy
 
 3. Clone repository:
 ```
-git clone https://github.com/innix/GitHub-Avatar-Generator.git
+git clone https://github.com/innix/github-avatar-generator.git
 ```
 
 
