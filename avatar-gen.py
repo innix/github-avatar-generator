@@ -74,7 +74,6 @@ def main():
     outputFile = sys.argv[4]
 
     pixelSize = int(canvasSize / 6)
-    bgColour = Color('#f0f0f0')
 
     with Color(pixelColour) as colour:
         with Color('#f0f0f0') as bgColour:
