@@ -1,6 +1,12 @@
 # GitHub Avatar Generator
 A GitHub-esque avatar image generator written in Python.
 
+![Example 1](/images/1.png)
+![Example 2](/images/2.png)
+![Example 3](/images/3.png)
+![Example 4](/images/4.png)
+![Example 5](/images/5.png)
+![Example 6](/images/6.png)
 
 ## Installation
 1. Install MagickWand and Wand:
