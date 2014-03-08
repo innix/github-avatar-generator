@@ -10,20 +10,20 @@ A GitHub-esque avatar image generator written in Python.
 
 ## Installation
 1. Install MagickWand and Wand:
-```
-apt-get install libmagickwand-dev
-pip install wand
-```
+    ```
+    apt-get install libmagickwand-dev
+    pip install wand
+    ```
 
 2. Install NumPy:
-```
-pip install numpy
-```
+    ```
+    pip install numpy
+    ```
 
 3. Clone repository:
-```
-git clone https://github.com/innix/github-avatar-generator.git
-```
+    ```
+    git clone https://github.com/innix/github-avatar-generator.git
+    ```
 
 
 ## Usage
