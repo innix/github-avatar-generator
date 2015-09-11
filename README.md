@@ -9,15 +9,16 @@ A GitHub-esque avatar image generator written in Python.
 ![Example 6](/images/6.png)
 
 ## Installation
-1. Install MagickWand and Wand:
-    ```
-    apt-get install libmagickwand-dev
-    pip install wand
-    ```
 
-2. Install NumPy:
+1. Install MagickWand:
     ```
-    pip install numpy
+    sudo apt-get install libmagickwand-dev
+    ```
+    Instructions for installing MagickWand [are also available for Mac, Windows, and others](http://docs.wand-py.org/en/0.4.1/guide/install.html).
+
+2. Install the Python Wand package:
+    ```
+    pip install wand
     ```
 
 3. Clone repository:
@@ -27,21 +28,20 @@ A GitHub-esque avatar image generator written in Python.
 
 
 ## Usage
-The current script has a straightforward usage for creating a single avatar image and saving it to a file.
+An example script is provided to demonstrate usage. The example creates a single avatar image and saves it to a file.
 ```
-python avatar-gen.py <canvas_size> <pixel_count> <pixel_colour> <out_file>
+python example.py <canvas_size> <block_count> <output_filename>
 ```
 
-| Parameter    | Summary                                                                                    |
-| ------------ | ------------------------------------------------------------------------------------------ |
-| canvas_size  | The width and height of the avatar image in pixels.                                        |
-| pixel_count  | The number of (enlarged) pixels to use in the image.                                       |
-| pixel_colour | The colour of the pixels. This may be a named colour (red, orange, etc.) or hex (#ff0000). |
-| out_file     | The output image.                                                                          |
+| Parameter       | Summary                                                                                    |
+| --------------- | ------------------------------------------------------------------------------------------ |
+| canvas_size     | The size (width and height) of the image in pixels.                                        |
+| block_count     | The number of colored blocks to use in the image.                                          |
+| output_filename | The output image file path.                                                                |
 
 Example:
 ```
-python avatar-gen.py 420 12 "#a30000" avatar_01.png
+python example.py 420 12 avatar_01.png
 ```
 
 ## License
