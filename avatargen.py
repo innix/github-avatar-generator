@@ -15,8 +15,7 @@ def generate(size, block_size, block_count, color=None, block_color=None):
                         else 'rgb' + str(_random_color()))
 
     # Create canvas.
-    img = Image(width=size, height=size,
-                background=Color(color), format = 'png')
+    img = Image(width=size, height=size, background=Color(color))
 
     # Create matrix.
     matrix_size = (size / block_size) - 1
