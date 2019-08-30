@@ -31,7 +31,7 @@ def main():
     with avatargen.generate(size=canvas_size,
                             block_size=block_size,
                             block_count=block_count) as avatar:
-        avatar.save(filename=output)
+        avatar.save(output)
 
 if __name__ == "__main__":
     main()

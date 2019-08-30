@@ -10,38 +10,30 @@ A GitHub-esque avatar image generator written in Python.
 
 ## Installation
 
-1. Install MagickWand:
+1. Install the Pillow package:
     ```
-    sudo apt-get install libmagickwand-dev
-    ```
-    Instructions for installing MagickWand [are also available for Mac, Windows, and others](http://docs.wand-py.org/en/0.4.1/guide/install.html).
-
-2. Install the Python Wand package:
-    ```
-    pip install wand
+    pip install Pillow
     ```
 
-3. Clone repository:
-    ```
-    git clone https://github.com/innix/github-avatar-generator.git
-    ```
+2. Clone repository.
 
 
 ## Usage
-An example script is provided to demonstrate usage. The example creates a single avatar image and saves it to a file.
+An example script is provided to demonstrate usage. The example creates a single image and saves it to a file.
+
 ```
 python example.py <canvas_size> <block_count> <output_filename>
 ```
 
-| Parameter       | Summary                                                                                    |
-| --------------- | ------------------------------------------------------------------------------------------ |
-| canvas_size     | The size (width and height) of the image in pixels.                                        |
-| block_count     | The number of colored blocks to use in the image.                                          |
-| output_filename | The output image file path.                                                                |
+| Parameter       | Summary                                                 |
+| --------------- | ------------------------------------------------------- |
+| canvas_size     | The size (width and height) of the image in pixels.     |
+| block_count     | The number of colored blocks to use in the image.       |
+| output_filename | The output image file path.                             |
 
-Example:
+For example:
 ```
-python example.py 420 12 avatar_01.png
+$ python example.py 420 12 avatar_01.png
 ```
 
 ## License
