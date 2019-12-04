@@ -14,7 +14,7 @@ def generate(size, block_size, block_count, color=None, block_color=None):
 
     # Create a matrix which gives us the "plan" of where to plot
     # the blocks on the image.
-    matrix_size = (size / block_size) - 1
+    matrix_size = int(size / block_size) - 1
     matrix = _create_matrix(matrix_size, block_count)
 
     # Create canvas.
